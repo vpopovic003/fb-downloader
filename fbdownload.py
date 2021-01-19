@@ -54,7 +54,7 @@ def download_page_1(page_source, HD):
                 print('page 1 elif false')
                 download_url = False
         except:
-            print('page 1 except false')
+            #print('page 1 except false')
             download_url = False
     return download_url
 
@@ -77,10 +77,10 @@ def download_page_2(page_source, HD):
                 if HD == 2:
                     download_url = download_button.get_attribute('href')
                 elif HD == 1:
-                    print('page 2 elif false')
+                    #print('page 2 elif false')
                     download_url == False
             except:
-                print('page 2 except false')
+                #print('page 2 except false')
                 download_url = False
     except:
         print('page timeout')
